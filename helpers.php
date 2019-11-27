@@ -1,3 +1,4 @@
+<?php
 /**
  * Pre-formatted print_r for any data type
  * @param any $input
