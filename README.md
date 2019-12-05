@@ -16,11 +16,7 @@ function PRINTR($input) {}
  * Pre-formatted var_dump for any data type
  * @param any $input
  */
-function VD($input) {
-    print "<pre>\n";
-    var_dump($input);
-    print "</pre>\n";
-}
+function VD($input) {}
 ```
 
 ```
@@ -129,7 +125,8 @@ function getDatesFromRange($start, $end, $format = 'Y-m-d', $skipWeekends = true
 
 ```
 /*
- * Adds values of 2 array per key. Fill missing indexes with value from one array
+ * Adds values of 2 array per key. Fill missing indexes with value from one array.
+ * Can also be set to subtract values of $arr2 from $arr1
  * Eg. 
  * $arr1[0] + $arr2[0] = $returnArr[0]
  * $arr1[1] + $arr2[1] = $returnArr[1]
